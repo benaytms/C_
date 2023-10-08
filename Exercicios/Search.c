@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//ainda em processo de aprimoramento 
+
 int linearSearch(int *v, int inicio, int fim, int x){
     for (int i=inicio; i<fim-1; i++){
         if (v[i] == x) {
