@@ -14,7 +14,7 @@ const double PI = 3.1415926;
         i+=1;
     }
     printf("n^2 = %d", aux);
-}*/
+}
 
 //montar um "xadrez" de O's, primeiro num de colunas dps linhas
 /*int main(){
@@ -53,12 +53,11 @@ int main(){
     return 0;
 }*/
 
-//cria um circulo com centro e raio aleatorios, cria 2 pontos aleatorios
-//diz se os pontos estão dentro do circulo, suas distancias do centro
-//informa o tipo de triangulo q os pontos formaram com o centro do circulo e fala os graus do angulo no centro
+//cria um circulo com centro e raio aleatorios; cria 2 pontos aleatorios
+//depois diz onde os pontos estão em relação ao circulo;
+//informa também algumas outras informações
 
-
-void points(int *x1, int *y1, int *x2, int *y2){
+/*void points(int *x1, int *y1, int *x2, int *y2){
     *x1 = rand()%50;
     *y1 = rand()%50;
     *x2 = rand()%50;
@@ -169,4 +168,4 @@ int main(){
     triangle_classifier(&dist1, &dist2, &dist3);
 
     return 0;
-}
+}*/
