@@ -35,7 +35,7 @@ void agendaFilling (PESSOA agenda[], int *valorASCII, int n) {
     }
 
 }
-
+//tira os espaços dos nomes - não foi necessario usar mas vou deixar aqui pq eu quero
 void stringJunta (PESSOA agenda[], int n) {
 
     for (int i=0 ; i<n ; i++) {
@@ -49,12 +49,11 @@ void stringJunta (PESSOA agenda[], int n) {
                 }
             }
 
-        }
-
-    }
-
+         }
+      }
 }
-
+//ordena os nomes alfabeticamente - nomes iguais não ficam ordenados
+//leva em consideração a primeira letra dos nomes
 void agendaSorting(PESSOA agenda[], int n) {
 
     for (int a=0 ; a < n - 1 ; a++) {
@@ -85,7 +84,7 @@ int main () {
     //preenchimento da agenda e calculo do valor ASCII
     agendaFilling(agenda, valAC, n);
 
-    //selection sort improvisado dos valores ASCII
+    //selection sort improvisado para ordenar os valores ASCII - também não necessario
     /*for (int a=0 ; a < n - 1 ; a++) {
         int min_idx = a;
         for (int i = a + 1 ; i < n ; i++) {
