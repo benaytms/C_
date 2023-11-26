@@ -3,7 +3,7 @@
 /*
 ordenar um registro-agenda utilizando selection sort
 
-e usando a chave (nome) para ordenar - para isso usarei os valores ASCII das letras*/
+e usando a chave (nome) para ordenar - para isso, uso os valores ASCII das letras*/
 
 typedef struct {
 
