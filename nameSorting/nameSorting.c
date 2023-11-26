@@ -53,7 +53,6 @@ void stringJunta (PESSOA agenda[], int n) {
       }
 }
 //ordena os nomes alfabeticamente - nomes iguais não ficam ordenados
-//leva em consideração a primeira letra dos nomes
 void agendaSorting(PESSOA agenda[], int n) {
 
     for (int a=0 ; a < n - 1 ; a++) {
