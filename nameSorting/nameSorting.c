@@ -83,26 +83,11 @@ int main () {
     //preenchimento da agenda e calculo do valor ASCII
     agendaFilling(agenda, valAC, n);
 
-    //selection sort improvisado para ordenar os valores ASCII - também não necessario
-    /*for (int a=0 ; a < n - 1 ; a++) {
-        int min_idx = a;
-        for (int i = a + 1 ; i < n ; i++) {
-            if (agenda[i].ascVal < agenda[min_idx].ascVal)
-            min_idx = i;
-        }
-        PESSOA aux = agenda[a];
-        agenda[a] = agenda[min_idx];
-        agenda[min_idx] = aux;
-    }*/
-
     //stringJunta(agenda, n);
     agendaSorting(agenda, n);
 
-
     for (int j=0 ; j<n ; j++) {
-
         printf("\n%s  %s  [%d]", agenda[j].nome, agenda[j].fone, agenda[j].ascVal);
-
     }
     return 0;
 }
