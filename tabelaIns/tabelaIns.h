@@ -1,6 +1,6 @@
 #include"intro.h"
 
-// ordena as keys
+// ordena pelas keys
 void insercao1 (TABELA table[]) {
         printf("\n");
         int i;
