@@ -15,7 +15,7 @@ void insercao1 (TABELA table[]) {
         }
 }
 
-// ordena pelo registro (info)
+// ordena pelos registros (info)
 void insercao2 (TABELA table[]) {
         printf("\n");
         int i;
@@ -31,7 +31,7 @@ void insercao2 (TABELA table[]) {
 
 }
 
-// ordena os dois
+// ordena pelos dois
 void insercao3 (TABELA table[]) {
         insercao1(table);
         insercao2(table);
