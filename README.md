@@ -1,2 +1,4 @@
 # Projetos.c
-// exercicios em c
+Coisas em C
+
+EVOLUIR EVOLUIR E ADAPTAR
