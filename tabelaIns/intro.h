@@ -10,6 +10,9 @@ typedef struct {
 }TABELA;
 
 void insercao1(TABELA table[]);
+
 void insercao2(TABELA table[]);
+
 void insercao3(TABELA table[]);
+
 void printTable(TABELA table[]);
