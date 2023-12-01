@@ -11,7 +11,7 @@ int main(void) {
         printFormas();
         while (etq.etiqueta < 0 || etq.etiqueta > 4) scanf("%d", &etq.etiqueta);
 
-        // sem ponteiro ocorre vazamento de memoria
+        // sem ponteiro ocorre problema na memoria
         classify(&etq);
 
         printSelecao(etq);
