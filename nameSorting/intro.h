@@ -6,14 +6,21 @@
 #include<time.h>
 #include<ctype.h>
 
-/*
- 
-    // forma doida de scanear um numero inteiro
+//    ordenar um registro-agenda utilizando selection sort
+//    e usando o nome como chave para ordenar - para isso usei os valores ASCII das letras
 
-    int t,i;
-    char line[16];
-    printf("type the number\n");
-    fgets(line, sizeof(line), stdin);  //armazena o numero em line
-    sscanf(line, "%d",&t);   // passa o valor de line como inteiro para t
+typedef struct {
 
-*/
+    char nome[40];
+    char fone[20];
+    int ascVal;
+
+} PESSOA;
+
+void agendaFilling (PESSOA agenda[], int *valorASCII, int n);
+
+void stringJunta (PESSOA agenda[], int n);
+
+void agendaSorting(PESSOA agenda[], int n);
+
+void printArray(PESSOA agenda[], int n);
