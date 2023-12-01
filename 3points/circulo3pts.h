@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-
+		
 //cria 2 pontos aleatorios no plano cartesiano
 void points(int *x1, int *y1, int *x2, int *y2);
 
