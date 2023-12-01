@@ -6,6 +6,31 @@ const double PI = 3.1415926;
 //informa o tipo de triangulo q os pontos formaram com o centro do circulo e fala os graus do angulo no centro
 
 //sem struct e sem organização ;)
+			
+int main(){
+    int xc, yc; //variaveis inteiras por conta do rand() que não gera pontos flutuantes
+    int x1, y1, x2, y2; // mesma coisa
+    float dist1, dist2, dist3, r; // pontos flutuantes devido à raiz quadrada e para obter maior precisão na distancia
+    int reta1, reta2;
+    srand(time(NULL));
+    center_and_radius(&xc, &yc, &r);
+    points(&x1, &y1, &x2, &y2);
+    dist(&xc, &yc, &x1, &y1, &x2, &y2, &dist1, &dist2, &dist3);
+    identifier(&dist1, &dist2, &r, &reta1, &reta2);
+    
+    printf("xc: %d | yc: %d \n", xc, yc);
+    printf("x1: %d | y1: %d | x2: %d | y2: %d \n", x1, y1, x2, y2);
+    printf("dist1: %.2f | dist2: %.2f | dist3: %.2f | R: %.2f \n", dist1, dist2, dist3, r);
+    angle(&dist1, &dist2, &dist3);
+    circle(&reta1, &reta2);
+    //conversão para inteiros para haver mais chances de outro triangulo alem do escaleno
+    dist1 = (int)dist1;
+    dist2 = (int)dist2;
+    dist3 = (int)dist3;
+    triangle_classifier(&dist1, &dist2, &dist3);
+
+    return 0;
+}
 
 void points(int *x1, int *y1, int *x2, int *y2){
     *x1 = rand()%50;
@@ -93,29 +118,4 @@ void angle(float *dist1, float *dist2, float *dist3){
     y = acos(y);
     y = (y*180)/PI;
     printf("Ang: %.2f degrees\n", y);
-}
-
-int main(){
-    int xc, yc; //variaveis inteiras por conta do rand() que não gera pontos flutuantes
-    int x1, y1, x2, y2; // mesma coisa
-    float dist1, dist2, dist3, r; // pontos flutuantes devido à raiz quadrada e para obter maior precisão na distancia
-    int reta1, reta2;
-    srand(time(NULL));
-    center_and_radius(&xc, &yc, &r);
-    points(&x1, &y1, &x2, &y2);
-    dist(&xc, &yc, &x1, &y1, &x2, &y2, &dist1, &dist2, &dist3);
-    identifier(&dist1, &dist2, &r, &reta1, &reta2);
-    
-    printf("xc: %d | yc: %d \n", xc, yc);
-    printf("x1: %d | y1: %d | x2: %d | y2: %d \n", x1, y1, x2, y2);
-    printf("dist1: %.2f | dist2: %.2f | dist3: %.2f | R: %.2f \n", dist1, dist2, dist3, r);
-    angle(&dist1, &dist2, &dist3);
-    circle(&reta1, &reta2);
-    //conversão para inteiros para haver mais chances de outro triangulo alem do escaleno
-    dist1 = (int)dist1;
-    dist2 = (int)dist2;
-    dist3 = (int)dist3;
-    triangle_classifier(&dist1, &dist2, &dist3);
-
-    return 0;
 }
