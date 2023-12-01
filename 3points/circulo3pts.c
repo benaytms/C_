@@ -6,7 +6,7 @@ const double PI = 3.1415926;
 //informa o tipo de triangulo q os pontos formaram com o centro do circulo e fala os graus do angulo no centro
 
 //sem struct e sem organização ;)
-		
+					
 int main(){
     int xc, yc; //variaveis inteiras por conta do rand() que não gera pontos flutuantes
     int x1, y1, x2, y2; // mesma coisa
