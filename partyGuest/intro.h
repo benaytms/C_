@@ -8,9 +8,6 @@
 // função para mostrar string
 void print_str(int v, char *n);
 
-// liberar memoria
-void liberaMem(char *n, char *m);
-
 // remover os espaços das string
 void removeSpacesFromStr(char **string, char *nome);
 
