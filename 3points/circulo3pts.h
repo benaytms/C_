@@ -12,7 +12,7 @@ void center_and_radius(int *xc, int *yc, float *r);
 //calcula as distancias entre os pontos
 void dist(int *xc, int *yc, int *x1, int *y1, int *x2, int *y2, float *dist1, float *dist2, float *dist3);
 
-//identifica se os 2 pontos estão dentro, fora ou em cima do raio do circulo
+//identifica se os 2 pontos estão dentro, fora ou em cima da circunferencia do circulo
 void identifier(float *dist1, float *dist2, float *r, int *reta1, int *reta2);
 
 //mostra na tela a resposta encontrada no identifier
