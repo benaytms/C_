@@ -5,9 +5,9 @@ int main (void) {
 
     printTable(L);
 
-    // insercao1(L);             // ordena pelas keys
-    // insercao2(L);            // ordena pelos registro (info)
-    // insercao3(L);           // ordena os dois
+    // insercao1(L);         
+    // insercao2(L);           
+    // insercao3(L);           
 
     printTable(L);
 
