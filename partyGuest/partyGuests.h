@@ -6,17 +6,6 @@ void print_str (int n, char *v) {
         }
 }
 
-void liberaMem (char *n, char *m) {
-        if (*n == '0')
-            return;
-        if (*m == '0')
-            return;
-        free(n);
-        n = NULL;
-        free(m);
-        m = NULL;
-}
-
 void removeSpacesFromStr (char **string, char *nome) {
         for (int k=0 ; k<MAX_NAMES ; k++){
             int non_space_count = 0;
