@@ -1,6 +1,5 @@
 #include"intro.h"
 
-
 void print_str (int n, char *v) {
         for (int i=0; i<n ; i++) {
             printf("%c", v[i]);
