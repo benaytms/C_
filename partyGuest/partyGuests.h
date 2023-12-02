@@ -33,7 +33,7 @@ void removeSpacesFromStr (char **string, char *nome) {
 }
 
 void checarNome(char **listaConvidados, char *nome) {
-    //transformar tudo em minusculo para na comparação não ocorrer erro
+    //transformar tudo em minusculo para não ocorrer erro na comparação
         int mark;
         for (int m=0 ; m<MAX_NAMES ; m++) {
             for (int n=0 ; n<strlen(listaConvidados[m]) ; n++) {
