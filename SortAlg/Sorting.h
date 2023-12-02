@@ -26,9 +26,8 @@ void bubbleSort(int array[], int size);
 void quickSort(int array[], int i, int j);
 void partition(int array[], int a, int b);
 //seleciona um pivo e a partir dele ordena seus dois lados
-//conceito complexo
 
 void mergeSort(int array[], int i, int j);
 void merge(int array[], int i, int j, int m);
-//divide o array em subarrays e os ordena 
-//depos com a func merge, os junta num array principal
+//divide o array até os valores ficarem sozinhos
+//depois com a func merge os junta ordenadamente no array principal
