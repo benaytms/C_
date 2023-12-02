@@ -1,8 +1,11 @@
 #include "partyGuests.h"
-/*. Dado a lista de convidados de uma festa15 e o nome de uma
-pessoa, determinar se essa pessoa é ou não convidada da festa. Codifique um
-programa completo para resolver esse problema. Crie um procedimento para
-fazer a entrada da lista de convidados e verifique se o nome consta ou não da lista. */
+
+/* Dada uma lista de convidados (definida por MAX_NAMES e MAX_NAME_LENGTH em intro.h) de uma festa, 
+determinar se uma pessoa aleatoria é ou não convidada da festa. 
+
+Enunciado:
+Crie um código para fazer a entrada de um nome numa lista de convidados de uma festa e verifique se o nome consta ou não na lista. 
+Em caso de sucesso retorne 0, do contrario retorne -1 */
 
 int main() {
         char string[MAX_NAMES][MAX_NAME_LENGTH];
@@ -28,7 +31,7 @@ int main() {
 
     free(nome);
     free(string2);
-    nome = 0;
-    string2 = 0;
+    nome = NULL;
+    string2 = NULL;
 
 }
