@@ -5,8 +5,8 @@
 #define k 9
 
 typedef struct {
-    char key;
-    int info;
+        char key;
+        int info;
 }TABELA;
 
 void insercao1(TABELA table[]);
