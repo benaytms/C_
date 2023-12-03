@@ -1,6 +1,5 @@
 #include"intro.h"
 
-// ordena as keys
 void insercao1 (TABELA table[]) {
         printf("\n");
         int i;
@@ -15,7 +14,6 @@ void insercao1 (TABELA table[]) {
         }
 }
 
-// ordena os registros (info)
 void insercao2 (TABELA table[]) {
         printf("\n");
         int i;
@@ -31,13 +29,11 @@ void insercao2 (TABELA table[]) {
 
 }
 
-// ordena as keys e os registros junto
 void insercao3 (TABELA table[]) {
         insercao1(table);
         insercao2(table);
 }
 
-// mostra a tabela
 void printTable (TABELA table[]) {
     printf("\n");
     for (int i=0 ; i<k ; i++) {
