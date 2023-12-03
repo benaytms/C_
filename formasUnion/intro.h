@@ -5,6 +5,8 @@
 #include<time.h>
 #include<ctype.h>
 
+#define PI 3.14159
+
 // area do Retangulo = base(b) x altura(h)
 // area do quadrado = lado(l) x lado(l)
 // area do triangulo = (base(b) x altura(h))/2
