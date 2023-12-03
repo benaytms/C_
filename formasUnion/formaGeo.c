@@ -1,7 +1,7 @@
 #include"formaGeo.h"
 
 /*
-    usar Union para selecionar um valor entre 0 e 4 que irá
+    usar União para selecionar um valor entre 0 e 4 que irá
     representar uma forma geometrica e em seguida a formula de sua area
 */
 
@@ -11,7 +11,7 @@ int main(void) {
         printFormas();
         while (etq.etiqueta < 0 || etq.etiqueta > 4) scanf("%d", &etq.etiqueta);
 
-        // sem ponteiro ocorre problema na memoria
+        //ponteiro para evitar vazamento de memoria
         classify(&etq);
 
         printSelecao(etq);
