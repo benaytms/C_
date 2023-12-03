@@ -5,10 +5,10 @@
 #define MAX_NAMES 5
 #define MAX_NAME_LENGTH 30
 
-// função para mostrar string
+// printa string
 void print_str(int v, char *n);
 
-// remover os espaços das string
+// remove os espaços das string
 void removeSpacesFromStr(char **string, char *nome);
 
 // checa se o nome está na lista de convidados
