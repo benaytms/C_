@@ -6,7 +6,7 @@
 //cria 2 pontos aleatorios no plano cartesiano
 void points(int *x1, int *y1, int *x2, int *y2);
 
-//cria um ponto aleatorio que tbm é o centro de um circulo de raio também aleatorio
+//cria um ponto aleatorio que será o centro de um circulo de raio também aleatorio
 void center_and_radius(int *xc, int *yc, float *r);
 
 //calcula as distancias entre os pontos
@@ -15,7 +15,7 @@ void dist(int *xc, int *yc, int *x1, int *y1, int *x2, int *y2, float *dist1, fl
 //identifica se os 2 pontos estão dentro, fora ou em cima da circunferencia do circulo
 void identifier(float *dist1, float *dist2, float *r, int *reta1, int *reta2);
 
-//mostra na tela a resposta encontrada no identifier
+//mostra na tela a resposta encontrada
 void circle(int *reta1, int *reta2);
 
 //informa a classificação do triangulo formado pelos 3 pontos
