@@ -15,6 +15,7 @@ typedef struct {
         int ascVal;
 } PESSOA;
 
+// preenche a agenda com os nomes e telefones
 void agendaFilling (PESSOA agenda[], int *valorASCII, int n);
 
 void stringJunta (PESSOA agenda[], int n);
