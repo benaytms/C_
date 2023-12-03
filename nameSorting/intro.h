@@ -20,6 +20,8 @@ void agendaFilling (PESSOA agenda[], int *valorASCII, int n);
 
 void stringJunta (PESSOA agenda[], int n);
 
+// ordena a agenda
 void agendaSorting(PESSOA agenda[], int n);
 
+// printa os nomes e telefones da agenda ordenada
 void printArray(PESSOA agenda[], int n);
