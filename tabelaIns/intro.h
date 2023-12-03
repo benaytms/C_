@@ -9,10 +9,14 @@ typedef struct {
         int info;
 }TABELA;
 
+// ordena as keys
 void insercao1(TABELA table[]);
 
+// ordena os registros
 void insercao2(TABELA table[]);
 
+// ordena ambos
 void insercao3(TABELA table[]);
 
+// printa a tabela
 void printTable(TABELA table[]);
