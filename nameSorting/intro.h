@@ -7,7 +7,7 @@
 #include<ctype.h>
 
 //    ordenar um registro-agenda utilizando selection sort
-//    e usando o nome como chave para ordenar - para isso usei os valores ASCII das letras
+//    e usando o nome como chave para ordenar - para isso usa-se os valores ASCII das letras
 
 typedef struct {
         char nome[40];
