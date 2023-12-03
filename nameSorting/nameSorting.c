@@ -1,7 +1,7 @@
 #include"nameSorting.h"
 
 int main (void) {
-        int n;
+    int n;
     scanf("%d", &n);
 
     PESSOA agenda[n];
