@@ -3,13 +3,13 @@
 #include<math.h>
 
 int linearSearch(int array[], int n, int x);
-//busca sequencial (valor por valor)
+//busca Linear (valor por valor)
 
 int binarySearch(int array[], int n, int x);
-//busca binaria (divisão do array ordenado)
+//busca Binaria (divide o array até encontrar X)
 
 void swap(int *a, int *b);
-//algoritmo para trocar posições entre a e b
+//trocar as posições de a e b
 
 void insertionSort(int array[], int size);
 //ordena pequenos subarrays dentro do array principal, até todos estarem ordenados
@@ -26,6 +26,8 @@ void bubbleSort(int array[], int size);
 void quickSort(int array[], int i, int j);
 void partition(int array[], int a, int b);
 //seleciona um pivo e a partir dele ordena seus dois lados
+//colocando todos os valores menores que o pivo à esquerda, e todos os maiores à direita
+//em seguida escolhe outros pivos e repete o processo até estar tudo ordenado
 
 void mergeSort(int array[], int i, int j);
 void merge(int array[], int i, int j, int m);
