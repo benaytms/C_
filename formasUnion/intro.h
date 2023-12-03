@@ -20,6 +20,8 @@ typedef struct {
         }selec;
 }FORMA;
 
+void printFormas ();
+
 void classify (FORMA *etq);
 
 void printSelecao (FORMA etq2);
