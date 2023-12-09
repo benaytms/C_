@@ -1,4 +1,4 @@
 # Projetos.c
 Coisas em C
 
-EVOLUIR EVOLUIR E ADAPTAR
+provavelmente fazendo algo de errado, não me use de exemplo
