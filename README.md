@@ -1,2 +1,2 @@
 # C_
-C language stuff
+C stuff
