@@ -1,2 +1,3 @@
 # C_
-C stuff
+Codes in C
+In the future it'll be replaced by the 'Codes in Rust & C++' repository
